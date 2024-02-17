@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediacueries.css">
+
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo">Curriculum Vitae</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#prestasi">Prestasi</a></li>
+                <li><a href="#pendidikan">Riwayat Pendidikan</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="kolagen-nav"><div class="logo">Curriculum Vitae</div>
+    <div class="kolagen-menu">
+    <div class="kolagen-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about"onclick="toggleMenu()">Tentang Saya</a></li>
+        <li><a href="#prestasi"onclick="toggleMenu()">Prestasi</a></li>
+        <li><a href="#pendidikan"onclick="toggleMenu()">Riwayat Pendidikan</a></li>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/p.png" alt="Rayza Indafri Yahya"/>
+        </div>
+        <div class="section__text">
+        <p class="section__text__p1">Hallo, Saya</p>
+        <h1 class="title">Rayza Indafri Yahya</h1>
+        <p class="section__text__p2">Universitas Sumatera Utara</p>
+            <button  
+            class="btn-container" onclick="window.location.href='assets/My-cv.pdf'" download="My-cv.pdf">Download CV</button>
+            <div id="social-container">
+                <img src="./assets/Facebook_f_logo_(2019).svg.png" alt="My Facebook" class="icon" onclick="location.href='https://www.facebook.com/rezaindafri.rezaindafri?mibextid=ZbWKwL'">
+                <img src="./assets/pngtree-instagram-icon-instagram-logo-png-image_3584853.png" alt="My Instagram" class="icon" onclick="location.href='https://www.instagram.com/rezaindafri?igsh=MXN4YWR3bnl1bHF2bQ=='">
+            </div>
+    </section>
+    <section id="about">
+        <p class="section__text_p1">Tentang saya</p>
+        <h1 class="title">ABOUT ME</h1>
+         <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/myself.jpg"
+                alt="profile picture" 
+                class="about-pic"
+                />
+            </div>
+            <div class="about-detai-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/ini.jpg" 
+                        alt="experience icon" 
+                        class="icon"/>
+                        <h3>Organisasi yang pernah diikuti</h3>
+                        <p>Karya Ilmiah Remaja-Anggota (2021-2023) <br />Osis-Wakil Ketua Bidang DKV(2022-2023)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/buku.png" alt="education icon" class="icon"/>
+                            <h3>Kemampuan</h3>
+                            <p>Saya adalah seseorang yang senang mempelajari hal baru.<br />Hal ini  menyebabkan saya memiliki berbagai macam skill yang telah<br />saya asah sedari SMA dengan mengikuti berbagai macam organisasi.
+                            <br />Salah satu nya adalah OSIS dalam bidang IT. Saya juga memiliki<br />jiwa kepemimpinan yang selalu di tunjuk untuk menjadi ketua panitia<br />setiap acara yg diselenggarakan di sekolah. </p>
+                        </div>
+                    </div>
+                    <img src="./assets/arrow2.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#prestasi'"/>
+                    
+                </div>
+            </div>
+         </div>
+    </section>
+    <section id="prestasi">
+        <h1 class="title">PRESTASI</h1>
+        <div class="prestasi-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="prestasi-sub-title">OSBN (Nasional) <br /> 2022</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/medali.png" 
+                            alt="Medali icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Silver</h3>
+                                <p>Pendidikan Kewarganegaraan</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="prestasi-sub-title">OSBN (Nasional) <br /> 2022</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/medali.png" 
+                            alt="Medali icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Gold</h3>
+                                <p>Biologi</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="prestasi-sub-title">POSI (Nasional) <br /> 2021</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/medali.png" 
+                            alt="Medali icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Silver</h3>
+                                <p>Geografi</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="prestasi-sub-title">AISEEF (Internasional) <br /> 2021</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/medali.png" 
+                            alt="Medali icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Silver</h3>
+                                <p>Karya Ilmiah Remaja(Sains Inovasi)</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pendidikan">
+        <div class="container">
+            <h1 class="title">RIWAYAT PENDIDIKAN</h1>
+            <div class="pendidikan-item">
+                <h3>Sekolah Dasar</h3>
+                <p>MIS HIDAYATUL MUBTADI IEN SAIDI TURI</p>
+                <p>Tahun: 2013 - 2017</p>
+            </div>
+            <div class="pendidikan-item">
+                <h3>Sekolah Menengah Pertama</h3>
+                <p>SMP Negeri 1 Medan</p>
+                <p>Tahun: 2017 - 2019</p>
+            </div>
+            <div class="pendidikan-item">
+                <h3>Sekolah Menengah Atas</h3>
+                <p>SMA Negeri Unggul Subulussalam</p>
+                <p>Tahun: 2019 - 2023</p>
+            </div>
+            <div class="pendidikan-item">
+                <h3>Sarjana</h3>
+                <p>Universitas Sumatera Utara</p>
+                <p>Tahun: 2023 - Sekarang</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+    </main>
+   <!-- Footer Start -->
+   <footer class="py-3 text-center text-white">
+    <p class="m-0">&copy; 2024 Pemograman Web Lanjutan</p>
+  </footer>
+  <!-- Footer End -->
+
+    <script src="script.js"></script>
+</body>
+</html>
